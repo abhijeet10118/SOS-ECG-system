@@ -47,3 +47,25 @@ Install dependencies using `pip`:
 
 ```bash
 pip install pyserial pywhatkit pyttsx3
+
+# Heart Disease Prediction
+
+This project implements various machine learning models to predict the likelihood of heart disease in patients. The dataset used is the well-known `heart.csv` dataset, which contains attributes related to patients' medical records, such as age, sex, blood pressure, cholesterol levels, and other heart-related features. The models predict whether a patient has heart disease based on these factors.
+
+## Features
+
+- **Multiple Machine Learning Models**: Logistic Regression, Naive Bayes, Support Vector Machine, K-Nearest Neighbors, Decision Tree, Random Forest, XGBoost, Neural Network.
+- **Model Evaluation**: The accuracy of each model is computed and visualized to compare their performance.
+- **Highest-Risk Patient Identification**: Identifies the patient with the highest risk of heart disease for each model.
+- **ECG-based Risk Prediction**: A user can input ECG-related features to predict their risk of heart disease.
+
+## Prerequisites
+
+- Python 3.x
+- Libraries: `numpy`, `pandas`, `matplotlib`, `seaborn`, `sklearn`, `xgboost`, `keras`
+
+You can install the required libraries using pip:
+
+```bash
+pip install numpy pandas matplotlib seaborn scikit-learn xgboost keras
+
